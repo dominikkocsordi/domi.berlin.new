@@ -1,0 +1,47 @@
+baseURL : 'https://domi.berlin/'
+languageCode : 'en-us'
+title : 'https://domi.berlin'
+theme : 'PaperMod'
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+   
+    
+
+params:
+  profileMode:
+    enabled: true
+    title: "Dominik Kocsordi" # optional default will be site title
+    subtitle: "BWL Student @ Hochschule München"
+    #imageUrl: "<image link>" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Github
+        url: "https://github.com/dominikkocsordi"
+
+  
+ 
+
+  socialIcons: 
+    - name: "instagram"
+      url: "https://www.instagram.com/dominikkocsordi/"
+    - name: "twitter"
+      url: "https://twitter.com/dominikkocsordi"
+    - name : "linkedin"
+      url: "www.linkedin.com/in/dominikkocsordi"
+    - name : "spotify"
+      url: "https://open.spotify.com/user/31xnozbwurvkh67csoxwgusfdm4u?si=a3825e68c837440a"
+    - name: "threads"
+      url: "https://www.threads.net/@dominikkocsordi"
+    - name: "snapchat"
+      url: "https://t.snapchat.com/JIBCiu4j"
+
+ 
